@@ -20,7 +20,13 @@ const tarefas = [
   ]
 const ListaTarefas = () => (
   <div>
-    teste
+    <ul>
+{tarefas.map((t) => (
+<li key={t.titulo}>
+<Tarefa descricao={t.descricao} titulo={t.titulo} status={t.status} prioridade={t.prioridade} />
+</li>
+))}
+</ul>
   </div>
 )
 export default ListaTarefas
