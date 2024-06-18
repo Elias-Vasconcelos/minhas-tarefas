@@ -1,2 +1,26 @@
-const ListaTarefas = () => <main></main>
+const tarefas = [
+    {
+      titulo: 'Estudar TypeScript',
+      descricao: 'Ver a aula 3 da EBAC',
+      prioridade: 'importante',
+      status: 'pendente'
+    },
+    {
+      titulo: 'Pagar a conta de internet', 
+      descricao: 'Baixar fatura no Gmail',
+      prioridade: 'urgente',
+      status: 'concluida'
+    },
+    {
+      titulo: 'Ir para a academia' ,
+      descricao: 'Fazer treino B',
+      prioridade: 'importante',
+      status: 'pendente'
+    }
+  ]
+const ListaTarefas = () => (
+  <div>
+    teste
+  </div>
+)
 export default ListaTarefas
