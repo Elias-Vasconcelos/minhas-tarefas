@@ -6,7 +6,7 @@ export type Props = {
   descricao: string
 }
 
-const FiltraCards = ({ contador, descricao, selecionado}: Props) => (
+const FiltraCards = ({ contador, descricao, selecionado }: Props) => (
   <S.Card selecionado={selecionado}>
     <S.Contador>{contador}</S.Contador>
     <S.Label>{descricao}</S.Label>

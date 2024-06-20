@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { Props } from '.'
 
-type SubProps = Omit<Props, contador | descricao>
+type SubProps = Omit<Props, 'contador' | 'descricao'>
 
 export const Card = styled.div<SubProps>`
   padding: 8px;
